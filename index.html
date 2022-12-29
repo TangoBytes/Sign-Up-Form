@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign-Up Page</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=MedievalSharp"
+        />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div id="sign-up-page">
+            <div id="background">
+                <img
+                    src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                    alt="ferns-image-background"
+                />
+                <div id="shadow-box">
+                    <img
+                        id="odin-img"
+                        src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                        alt="odin-image"
+                    />
+                    <h1 class="white-font">ODIN</h1>
+                </div>
+                <footer class="white-font">
+                    Photo by Halie West on
+                    <a
+                        href="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                        class="white-font"
+                        >Unsplash</a
+                    >
+                </footer>
+            </div>
+            <div id="card">
+                <p id="info">
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams.<br />Sign up <em>now</em> to get started.
+                    <br /><br />
+                    You <em>know</em> you want to.
+                </p>
+                <div id="form-section">
+                    <p>Let's do this!</p>
+                    <form id="form1" action="index.js" method="post">
+                        <label for="first-name" required>FIRST NAME</label>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="first-name" />
+                        <input type="text" id="last-name" />
+                        <label for="email">EMAIL</label>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="email" id="email" />
+                        <input type="number" id="phone-number" />
+                        <label for="password">PASSWORD</label>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="text" id="password" />
+                        <input type="text" id="confirm-password" />
+                    </form>
+                </div>
+                <button
+                    id="submit-button"
+                    type="submit"
+                    form="form1"
+                    value="Submit"
+                >
+                    Create Account
+                </button>
+                <p id="login-text">
+                    Already have an account? <a href="index.js">Log in</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

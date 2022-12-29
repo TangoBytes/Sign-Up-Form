@@ -1,0 +1,138 @@
+body {
+    margin: auto;
+    display: flex;
+}
+
+#sign-up-page {
+    margin: auto;
+    display: flex;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    overflow: hidden;
+}
+
+#background {
+    position: relative;
+    height: 900px;
+}
+
+#background > img {
+    object-fit: cover;
+    width: 550px;
+    height: 900px;
+}
+
+#shadow-box {
+    position: absolute;
+    top: 206px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#shadow-box > img {
+    width: 100px;
+    object-fit: contain;
+}
+
+#shadow-box > h1 {
+    font-family: MedievalSharp, Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.white-font {
+    color: white;
+}
+
+#card {
+    background-color: #e6e7e8;
+    width: 900px;
+}
+
+#form-section {
+    background-color: white;
+    margin-right: 20px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    box-shadow: 0 8px 6px -6px #596d48;
+    padding: 20px 0px;
+}
+
+form {
+    margin-inline: 40px;
+    display: grid;
+    grid-template-columns: 360px 360px;
+}
+
+#form-section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-inline: 40px;
+}
+
+#info {
+    margin-top: 200px;
+    margin-inline: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #464e5a;
+    margin-top: 20px;
+}
+
+input {
+    border-color: #e5e7eb;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    height: 24px;
+}
+
+input:hover {
+    border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+#submit-button {
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #596d48;
+    color: white;
+    border-radius: 8px;
+    border-color: #596d48;
+    width: 240px;
+    font-size: 18px;
+    padding: 12px;
+}
+
+#login-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-inline: 40px;
+}
+
+#login-text > a {
+    color: #596d48;
+    text-decoration: none;
+}
